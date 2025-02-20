@@ -9,3 +9,13 @@ html doc --> browser(parse it )-->rendered page
 <p> paragraph
 <h1> biggest heading </h1>
 
+CSS
+are of 3 types
+inline CSS
+embedded CSS
+external css
+
+inlined css is heavier than the embedded
+
+paragraph is box level elements
+padding :- 
