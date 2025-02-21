@@ -1,0 +1,21 @@
+/* p::first-letter {
+    color: red;
+    font-size: 150%;
+} */
+/* 
+p::first-line {
+    color: red;
+    font-size: 150%;
+} */
+
+/* p::before {
+    content: "SOMETHING ";
+
+} */
+/* p::after {
+    content: "SOMETHING ";
+
+} */
+p::before {
+    content: "your icon here - ";
+}
