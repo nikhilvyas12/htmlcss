@@ -19,3 +19,27 @@ inlined css is heavier than the embedded
 
 paragraph is box level elements
 padding :- 
+
+block element
+div
+paragraphsection
+article
+header
+footer
+
+inline element
+span
+anchor
+images
+
+clas and ID 
+class .classname
+Id  #idname
+
+
+with id you can not use the two elements with same id instead use the class in this case 
+
+you can use child slector like 
+dev.blue-text p{} 
+
+or class level with class or id like blue-text {}
