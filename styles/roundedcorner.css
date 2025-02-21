@@ -1,0 +1,19 @@
+.images {
+    border: 2px solid red;
+    /* border-radius: 20px; */
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.cirleimage {
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+.block {
+    background-color: blue;
+    height: 400px;
+    width: 400px;
+    padding-left: 210px;
+}
