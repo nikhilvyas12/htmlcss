@@ -1,0 +1,9 @@
+.gradient {
+    background-color: red;
+    height: 300px;
+    width: 100%;
+    /* background: linear-gradient(direction, colors, colors); */
+    /* background: linear-gradient(to left, red, yellow);to right , to top , to bottom */
+    /* background: linear-gradient(to left, rgb(30, 30, 30), yellow, blue, red, violet); */
+    background: radial-gradient(red, orange, blue, orange, violet, pink);
+}
