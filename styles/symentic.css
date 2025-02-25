@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #eeeeee;
+    border: 1px aqua solid;
+}
+
+.tm-header {
+    background: white;
+    border: 1px red solid;
+}
+
+.tm-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    border: 1px black solid;
+}
+
+.tm-nav {
+    float: right;
+}
+
+.tm-nav ul li {
+    display: inline-block;
+    border: 1px darkgreen solid;
+}
+
+.tm-nav ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #303030;
+    border: 1px orange solid;
+}
