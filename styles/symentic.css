@@ -82,9 +82,28 @@ h6 {
 }
 
 .tm-content {
+    max-width: 70%;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-right: 20px;
+    float: left;
 }
+
+.tm-sidebar {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* max-width: 25%; */
+    float: right;
+    width: 25%;
+    /* padding-right: 10px; */
+
+}
+
+.tm-sidebar div {
+    background: white;
+    padding: 30px;
+}
+
 
 .tm-article {
     background: white;
@@ -97,7 +116,15 @@ img {
 }
 
 .tm-footer {
+    /* clear: both; */
     background: white;
     text-align: center;
     padding: 20px;
+}
+
+.clearfix::after {
+    content: " ";
+    clear: both;
+    display: block;
+    visibility: none;
 }
