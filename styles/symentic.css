@@ -95,3 +95,9 @@ img {
     display: block;
     max-width: 100%;
 }
+
+.tm-footer {
+    background: white;
+    text-align: center;
+    padding: 20px;
+}
