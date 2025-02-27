@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/forms.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <form action="symentic.html" method="post">
+        <!-- in input type text is default even if you leave it empty -->
+        <input type="text" name="name" placeholder="your Name"><br><br>
+        <input type="password" name="password" placeholder="password"><br>
+        <br>
+        <br>
+        <label for="signUp">sign me up</label>
+        <input type="checkbox" name="signUp" id="signUp" checked="checked">
+
+        <label for="signUpA">sign me up for amazon</label>
+        <input type="checkbox" name="signUp1" id="signUpA">
+        <br>
+
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" id="male" value="male"><br>
+        <label for="female">Female</label>
+        <input type="radio" name="Gender" id="female" value="female"><br>
+        <label for="other">Other</label>
+        <input type="radio" name="Gender" id="other" value="other">
+        <br><br>
+        <input type="submit" value="Send">
+
+    </form>
+
+</body>
+
+</html>

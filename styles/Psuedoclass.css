@@ -1,0 +1,25 @@
+/* p:hover {
+    color: red;
+    border: 2px green solid;
+} */
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+}
+
+a:active {
+    color: green;
+}
+
+a:visited {
+    color: orange;
+}
+
+.child-example p:nth-child(2n) {
+    color: greenyellow;
+}

@@ -1,0 +1,20 @@
+/* div p {
+    color: red;
+} */
+
+.red-text p {
+    color: red;
+}
+
+.green-text p {
+    color: green;
+}
+
+div.blue-text p {
+
+    color: blue;
+}
+
+article.blue-text p {
+    color: aqua;
+}

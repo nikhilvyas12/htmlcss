@@ -1,0 +1,33 @@
+p {
+    font: bold 36px helvetica;
+    background-color: black;
+    color: rgba(222, 50, 92, 0.6);
+    */
+    /* border: 3px dashed green;
+    padding: 20px;
+    margin: 100px; */
+
+    /* border-top: 4px solid black;
+    border-right: 2px dashed darkblue;
+
+    padding-top: 20px;
+    padding-left: 50px;
+
+    margin-top: 30px;
+    margin-left: 80px; */
+
+
+    padding: 40px 100px 60px 200px;
+    /* top right bottom left*/
+
+    margin: 40px 100px 60px 200px;
+    /* top right bottom left*/
+}
+
+body {
+    /* background-image: url('../img/DALL·E\ 2025-02-18\ 14.05.00\ -\ A\ motivational\ icon\ symbol\ representing\ hard\ work\ and\ rising\ to\ success.\ The\ design\ should\ include\ an\ upward\ arrow\,\ a\ mountain\ or\ stairs\ symbolizing\ p.webp');
+    /* background-size: cover; */
+    /* background-repeat: no-repeat;  */
+    /* background: bg-color bg-image position/pg-size bg-repeat bg-attachment;; */
+    background: black url('../img/wallpaperflare.com_wallpaper.jpg') center/cover no-repeat scroll;
+}

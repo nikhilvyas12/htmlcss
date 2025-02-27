@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid black;
+}
+
+tr:nth-child(2n) {
+    background: grey;
+}
+
+tr:hover {
+    background: red;
+}

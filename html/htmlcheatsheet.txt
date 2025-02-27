@@ -1,0 +1,45 @@
+
+html doc --> browser(parse it )-->rendered page
+
+<html></html> --main tag
+<head>metadata information will come here </head>
+<body>things to show on page will come here </body>
+<br> non closing tag or anchor tag 
+<a> anchor tag
+<p> paragraph
+<h1> biggest heading </h1>
+
+CSS
+are of 3 types
+inline CSS
+embedded CSS
+external css
+
+inlined css is heavier than the embedded
+
+paragraph is box level elements
+padding :- 
+
+block element
+div
+paragraphsection
+article
+header
+footer
+
+inline element
+span
+anchor
+images
+
+clas and ID 
+class .classname
+Id  #idname
+
+
+with id you can not use the two elements with same id instead use the class in this case 
+
+you can use child slector like 
+dev.blue-text p{} 
+
+or class level with class or id like blue-text {}

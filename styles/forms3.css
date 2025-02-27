@@ -1,0 +1,56 @@
+input[type="submit"],
+input[type="button"] {
+    background: red;
+    border: 0px;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 5px;
+    height: 25px;
+    width: 300px;
+}
+
+textarea {
+    height: 200px;
+    width: 300px;
+    max-width: 300px;
+    padding: 5px;
+}
+
+.form-row {
+    margin: 10px 0px;
+    /* background: aqua; */
+}
+
+.form-label {
+    float: left;
+    width: 20%;
+}
+
+.form-input {
+    float: right;
+    width: 80%;
+}
+
+.form-row::after {
+    content: " ";
+    visibility: hidden;
+    height: 0px;
+    display: block;
+
+    clear: both;
+}
+
+select {
+    width: 315px;
+    height: 25px;
+    padding: 5px;
+
+}
+
+input[type="checkbox"] {
+    height: 25px;
+}

@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid black;
+}
+
+thead {
+    background: lightblue;
+}
+
+tbody {
+    background: lightpink;
+}
+
+tfoot {
+    background: lightcoral;
+}
