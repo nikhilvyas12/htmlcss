@@ -1,0 +1,12 @@
+input[type="submit"],
+input[type="button"] {
+    background: red;
+    border: 0px;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+input[type="text"] {
+    padding: 5px;
+    height: 25px;
+}
