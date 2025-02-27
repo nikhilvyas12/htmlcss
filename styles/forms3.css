@@ -1,0 +1,37 @@
+input[type="submit"],
+input[type="button"] {
+    background: red;
+    border: 0px;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 5px;
+    height: 25px;
+}
+
+.form-row {
+    margin: 10px 0px;
+    /* background: aqua; */
+}
+
+.form-label {
+    float: left;
+    width: 20%;
+}
+
+.form-input {
+    float: right;
+    width: 80%;
+}
+
+.form-row::after {
+    content: " ";
+    visibility: hidden;
+    height: 0px;
+    display: block;
+
+    clear: both;
+}
